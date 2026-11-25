@@ -21,9 +21,9 @@ version bump.
 
 #### Paseo plugins & agent tooling
 
-- **[paseo-fleet](https://github.com/kern0x1b/paseo-fleet)** — model-agnostic multi-agent fleet skills (Coordinator, Worker, Reviewer) and event protocol for Paseo.
-- **[paseo-gitlab](https://github.com/kern0x1b/paseo-gitlab)** — a mini GitLab inside Paseo: issues, merge requests, review, pipelines, with the token in the OS keychain.
-- **[paseo-slack](https://github.com/kern0x1b/paseo-slack)** — Slack CLI, real-time event router and MCP server for AI agent fleets.
-- **[paseo-usage-sidebar](https://github.com/kern0x1b/paseo-usage-sidebar)** — provider plan usage as a sidebar surface (fork).
+- **[paseo-plugins](https://github.com/kern0x1b/paseo-plugins)** — plugins and tools for Paseo in one repository:
+  - **paseo-gitlab** — a mini GitLab inside Paseo: issues, merge requests, review, pipelines, with the token in the OS keychain.
+  - **paseo-slack** — Slack Web API access, real-time event router and MCP tools for agent sessions.
+  - **paseo-channels** — pushes GitLab and Slack events into an agent session as Claude Code channel events; the protocol lets any other platform plug in.
 
 No stats widget, no streak graph — the commits speak for themselves.
